@@ -5,4 +5,3 @@ public class Item {
     private int _buyPrice;
     private int _itemId;
 }
-

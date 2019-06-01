@@ -4,7 +4,7 @@ import com.mygdx.insanerpg.model.item.Item;
 
 public class Consumable extends Item {
     private int _cooldown;
-    private int _hasDelay;
+    private boolean _hasDelay;
     private int _delay;
     private int _duration;
 }
