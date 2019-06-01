@@ -11,10 +11,6 @@ abstract class Unit {
     private boolean _isTargetable;
     private boolean _isVisible;
 
-    public void setMoveSpeed(double _moveSpeed) {
-        this._moveSpeed = _moveSpeed;
-    }
-
     public int getHealth() {
         return _health;
     }
@@ -47,8 +43,12 @@ abstract class Unit {
         this._id = _id;
     }
 
-    public double getMoveSpeed() {
+    public double get_moveSpeed() {
         return _moveSpeed;
+    }
+
+    public void set_moveSpeed(double _moveSpeed) {
+        this._moveSpeed = _moveSpeed;
     }
 
     public double getAttackSpeed() {
@@ -67,19 +67,19 @@ abstract class Unit {
         this._castSpeed = _castSpeed;
     }
 
-    public boolean is_isTargetable() {
+    public boolean getIsTargetable() {
         return _isTargetable;
     }
 
-    public void set_isTargetable(boolean _isTargetable) {
+    public void setIsTargetable(boolean _isTargetable) {
         this._isTargetable = _isTargetable;
     }
 
-    public boolean is_isVisible() {
+    public boolean getIsVisible() {
         return _isVisible;
     }
 
-    public void set_isVisible(boolean _isVisible) {
+    public void setIsVisible(boolean _isVisible) {
         this._isVisible = _isVisible;
     }
 }
