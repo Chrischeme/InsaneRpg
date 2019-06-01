@@ -1,7 +1,7 @@
-package com.mygdx.insanerpg;
+package com.mygdx.insanerpg.Model.Unit;
 
 class Unit {
-    public int health;
+    private int health;
     private String _name;
     private int _damage;
     private int _level;
