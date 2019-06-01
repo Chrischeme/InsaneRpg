@@ -1,4 +1,4 @@
-package com.mygdx.towerdefense;
+package com.mygdx.insanerpg;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
@@ -6,7 +6,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class TowerDefenseWithFriends extends ApplicationAdapter {
+public class InsaneRpg extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
 	
