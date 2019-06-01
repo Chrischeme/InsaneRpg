@@ -1,4 +1,4 @@
-package com.mygdx.insanerpg.Model.Unit;
+package com.mygdx.insanerpg.model.unit;
 
 class Unit {
     private int health;

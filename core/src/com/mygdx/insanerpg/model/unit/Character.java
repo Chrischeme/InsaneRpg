@@ -1,4 +1,4 @@
-package com.mygdx.insanerpg.Model.Unit;
+package com.mygdx.insanerpg.model.unit;
 
 class Character extends Unit {
     public int _intelligence;
