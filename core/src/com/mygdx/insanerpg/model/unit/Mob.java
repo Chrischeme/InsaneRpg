@@ -1,6 +1,5 @@
 package com.mygdx.insanerpg.model.unit;
 
 class Mob extends Unit {
-    private boolean isFriendly;
-
+    private boolean _isFriendly;
 }
