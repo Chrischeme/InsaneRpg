@@ -9,6 +9,3 @@ class Unit {
     private double _attackSpeed;
     private double _castSpeed;
 }
-
-
-
