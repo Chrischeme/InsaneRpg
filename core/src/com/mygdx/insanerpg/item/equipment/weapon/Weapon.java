@@ -1,6 +1,6 @@
-package com.mygdx.insanerpg.Item.Equipment.Weapon;
+package com.mygdx.insanerpg.item.equipment.weapon;
 
-import com.mygdx.insanerpg.Item.Equipment.Equipment;
+import com.mygdx.insanerpg.item.equipment.Equipment;
 
 public class Weapon extends Equipment {
     private int _damage;

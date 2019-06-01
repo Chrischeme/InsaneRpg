@@ -1,4 +1,4 @@
-package com.mygdx.insanerpg.Item;
+package com.mygdx.insanerpg.item;
 
 public class Item {
     private int _sellPrice;
