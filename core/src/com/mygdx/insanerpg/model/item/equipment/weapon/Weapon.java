@@ -8,7 +8,7 @@ public abstract class Weapon extends Equipment {
     private boolean _isOneHanded;
     private int _armorPenetration;
     private int _magicPenetration;
-    private AttackSpeed attackSpeed;
+    private AttackSpeed _attackSpeed;
 
     public int getPhysicalDamage() {
         return _physicalDamage;
@@ -43,25 +43,26 @@ public abstract class Weapon extends Equipment {
     }
 
     public AttackSpeed getAttackSpeed() {
-        return attackSpeed;
+        return _attackSpeed;
     }
 
     public void setAttackSpeed(AttackSpeed attackSpeed) {
-        this.attackSpeed = attackSpeed;
+        this._attackSpeed = attackSpeed;
     }
 
     public boolean getIsOneHanded() {
         return _isOneHanded;
     }
 
-    public Weapon (AttackSpeed attackSpeed, int physicalDamage, int magicalDamage, int armorPenetration, int magicPenetration, boolean isOneHanded){
-        setAttackSpeed(attackSpeed);
-        setPhysicalDamage(physicalDamage);
-        setMagicalDamage(magicalDamage);
-        setArmorPenetration(armorPenetration);
-        setMagicPenetration(magicPenetration);
+    public Weapon(AttackSpeed attackSpeed, int physicalDamage, int magicalDamage, int armorPenetration, int magicPenetration, boolean isOneHanded) {
+        _attackSpeed = attackSpeed;
+        _physicalDamage = physicalDamage;
+        _magicalDamage = magicalDamage;
+        _armorPenetration = armorPenetration;
+        _magicPenetration = magicPenetration;
         _isOneHanded = isOneHanded;
     }
-    public Weapon (){
+
+    public Weapon() {
     }
 }

@@ -2,6 +2,7 @@ package com.mygdx.insanerpg.model.item.equipment;
 
 import com.mygdx.insanerpg.model.item.Item;
 import com.mygdx.insanerpg.model.item.stackable.consumable.Gem;
+
 import java.util.ArrayList;
 
 public abstract class Equipment extends Item {

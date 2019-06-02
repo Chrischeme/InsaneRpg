@@ -110,19 +110,19 @@ abstract class Unit {
         this._orientationAngle = _orientationAngle;
     }
 
-    public Unit(int hitPoints, int manaPoints, String name, int level, int id, int moveSpeed, double attackSpeed, double  castSpeed, boolean isTargetable, double orientationAngle,
+    public Unit(int hitPoints, int manaPoints, String name, int level, int id, int moveSpeed, double attackSpeed, double castSpeed, boolean isTargetable, double orientationAngle,
                 double xCoordinate, double yCoordinate) {
-        setHitPoints(hitPoints);
-        setManaPoints(manaPoints);
-        setName(name);
-        setLevel(level);
-        setManaPoints(moveSpeed);
-        setAttackSpeed(attackSpeed);
-        setCastSpeed(castSpeed);
-        setIsTargetable(isTargetable);
-        setOrientationAngle(orientationAngle);
-        setXCoordinate(xCoordinate);
-        setYCoordinate(yCoordinate);
+        _hitPoints = hitPoints;
+        _manaPoints = manaPoints;
+        _name = name;
+        _level = level;
+        _attackSpeed = attackSpeed;
+        _castSpeed = attackSpeed;
+        _moveSpeed = moveSpeed;
+        _isTargetable = isTargetable;
+        _orientationAngle = orientationAngle;
+        _xCoordinate = xCoordinate;
+        _yCoordinate = yCoordinate;
     }
 
     public Unit() {
