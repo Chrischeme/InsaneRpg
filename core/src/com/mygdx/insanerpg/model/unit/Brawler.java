@@ -1,4 +1,4 @@
 package com.mygdx.insanerpg.model.unit;
 
-class Barbarian extends Character {
+class Brawler extends Character {
 }
