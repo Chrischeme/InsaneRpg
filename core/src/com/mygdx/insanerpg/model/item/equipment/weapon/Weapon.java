@@ -56,7 +56,7 @@ public abstract class Weapon extends Equipment {
         return _isOneHanded;
     }
 
-    public Weapon (AttackSpeed attackSpeed, int physicalDamage, int magicalDamage, int armorPenetration, int magicPenetration, boolean isOneHanded, boolean hasKnockback){
+    public Weapon (AttackSpeed attackSpeed, int physicalDamage, int magicalDamage, int armorPenetration, int magicPenetration, boolean isOneHanded){
         setAttackSpeed(attackSpeed);
         setPhysicalDamage(physicalDamage);
         setMagicalDamage(magicalDamage);
