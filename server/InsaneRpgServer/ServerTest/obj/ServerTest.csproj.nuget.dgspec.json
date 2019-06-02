@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\InsaneRpgServer\\InsaneRpgServer.csproj": {}
+    "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\ServerTest\\ServerTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\InsaneRpgServer\\InsaneRpgServer.csproj": {
+    "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\ServerTest\\ServerTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\InsaneRpgServer\\InsaneRpgServer.csproj",
-        "projectName": "InsaneRpgServer",
-        "projectPath": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\InsaneRpgServer\\InsaneRpgServer.csproj",
+        "projectUniqueName": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\ServerTest\\ServerTest.csproj",
+        "projectName": "ServerTest",
+        "projectPath": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\ServerTest\\ServerTest.csproj",
         "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\InsaneRpgServer\\obj\\",
+        "outputPath": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\ServerTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,17 +41,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.1, )",
-              "autoReferenced": true
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.2, )"
-            },
             "Microsoft.NETCore.App": {
               "target": "Package",
               "version": "[2.1.0, )",

@@ -1,0 +1,7 @@
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ServerTest\bin\Debug\netcoreapp2.1\ServerTest.deps.json
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ServerTest\bin\Debug\netcoreapp2.1\ServerTest.runtimeconfig.json
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ServerTest\bin\Debug\netcoreapp2.1\ServerTest.runtimeconfig.dev.json
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ServerTest\bin\Debug\netcoreapp2.1\ServerTest.dll
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ServerTest\obj\Debug\netcoreapp2.1\ServerTest.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ServerTest\obj\Debug\netcoreapp2.1\ServerTest.AssemblyInfoInputs.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ServerTest\obj\Debug\netcoreapp2.1\ServerTest.AssemblyInfo.cs

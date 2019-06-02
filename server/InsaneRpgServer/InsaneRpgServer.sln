@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsaneRpgServer", "InsaneRpgServer\InsaneRpgServer.csproj", "{DD2C0399-15E2-464F-A5BA-74A7E99F8125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsaneRpgServer", "InsaneRpgServer\InsaneRpgServer.csproj", "{DD2C0399-15E2-464F-A5BA-74A7E99F8125}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerTest", "ServerTest\ServerTest.csproj", "{6ED498F3-1965-4F0E-8146-DBD0B44C0637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{C42DC6FA-3837-495A-A017-4060C2D94FDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DD2C0399-15E2-464F-A5BA-74A7E99F8125}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD2C0399-15E2-464F-A5BA-74A7E99F8125}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD2C0399-15E2-464F-A5BA-74A7E99F8125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED498F3-1965-4F0E-8146-DBD0B44C0637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED498F3-1965-4F0E-8146-DBD0B44C0637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED498F3-1965-4F0E-8146-DBD0B44C0637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED498F3-1965-4F0E-8146-DBD0B44C0637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42DC6FA-3837-495A-A017-4060C2D94FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42DC6FA-3837-495A-A017-4060C2D94FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42DC6FA-3837-495A-A017-4060C2D94FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42DC6FA-3837-495A-A017-4060C2D94FDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

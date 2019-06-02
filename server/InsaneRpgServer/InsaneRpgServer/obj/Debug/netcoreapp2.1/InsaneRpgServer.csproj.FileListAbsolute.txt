@@ -1,0 +1,11 @@
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\bin\Debug\netcoreapp2.1\InsaneRpgServer.deps.json
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\bin\Debug\netcoreapp2.1\InsaneRpgServer.runtimeconfig.json
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\bin\Debug\netcoreapp2.1\InsaneRpgServer.runtimeconfig.dev.json
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\bin\Debug\netcoreapp2.1\InsaneRpgServer.dll
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.csprojAssemblyReference.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.RazorAssemblyInfo.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.RazorAssemblyInfo.cs
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.AssemblyInfoInputs.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.AssemblyInfo.cs
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.RazorTargetAssemblyInfo.cache

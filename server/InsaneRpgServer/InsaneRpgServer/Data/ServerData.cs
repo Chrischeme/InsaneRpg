@@ -7,5 +7,6 @@ namespace InsaneRpgServer.Data
 {
     public sealed class ServerData
     {
+        private readonly List<PlayerData> _listOfPlayerData;
     }
 }
