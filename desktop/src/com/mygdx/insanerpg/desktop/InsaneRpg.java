@@ -1,3 +1,5 @@
+package com.mygdx.insanerpg.desktop;
+
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
