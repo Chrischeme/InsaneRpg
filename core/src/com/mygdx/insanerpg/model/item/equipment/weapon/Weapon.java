@@ -9,8 +9,6 @@ public abstract class Weapon extends Equipment {
     private int _armorPenetration;
     private int _magicPenetration;
     private AttackSpeed attackSpeed;
-    private boolean _hasKnockback;
-    private int _knockbackDistance;
 
     public int getPhysicalDamage() {
         return _physicalDamage;
@@ -64,19 +62,6 @@ public abstract class Weapon extends Equipment {
         setMagicPenetration(magicPenetration);
         _isOneHanded = isOneHanded;
     }
-
     public Weapon (){
-    }
-
-    public int getKnockbackDistance() {
-        return _knockbackDistance;
-    }
-
-    public void setKnockbackDistance(int _knockbackDistance) {
-        this._knockbackDistance = _knockbackDistance;
-    }
-
-    public boolean getHasKnockback() {
-        return _hasKnockback;
     }
 }

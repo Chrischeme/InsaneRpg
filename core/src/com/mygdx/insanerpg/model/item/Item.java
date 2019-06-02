@@ -6,13 +6,13 @@ public abstract class Item {
     private int _itemId;
     private String _description;
     private String _name;
-    private Rarity rarity;
+    private Rarity _rarity;
 
     public Rarity getRarity() {
-        return rarity;
+        return _rarity;
     }
 
     public void setRarity(Rarity rarity) {
-        this.rarity = rarity;
+        this._rarity = rarity;
     }
 }
