@@ -6,3 +6,6 @@ C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\Client\obj\Debug\
 C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\Client\obj\Debug\netcoreapp2.1\Client.csproj.CoreCompileInputs.cache
 C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\Client\obj\Debug\netcoreapp2.1\Client.AssemblyInfoInputs.cache
 C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\Client\obj\Debug\netcoreapp2.1\Client.AssemblyInfo.cs
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\Client\bin\Debug\netcoreapp2.1\Client.pdb
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\Client\obj\Debug\netcoreapp2.1\Client.dll
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\Client\obj\Debug\netcoreapp2.1\Client.pdb

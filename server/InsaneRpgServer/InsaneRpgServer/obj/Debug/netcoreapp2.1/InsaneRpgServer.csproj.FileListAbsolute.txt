@@ -9,3 +9,6 @@ C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\o
 C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.AssemblyInfoInputs.cache
 C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.AssemblyInfo.cs
 C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.RazorTargetAssemblyInfo.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\bin\Debug\netcoreapp2.1\InsaneRpgServer.pdb
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.dll
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\InsaneRpgServer\obj\Debug\netcoreapp2.1\InsaneRpgServer.pdb

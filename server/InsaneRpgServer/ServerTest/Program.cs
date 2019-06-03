@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimpleTCP;
+using System;
 
 namespace ServerTest
 {
@@ -6,20 +7,14 @@ namespace ServerTest
     {
         static void Main(string[] args)
         {
-            Server server = new Server();
-            var input = Console.ReadLine();
-            var run = true;
-            while (run)
+            var server = new SimpleTcpServer().Start(8000);
+            server.DataReceived += (sender, msg) => {
+                Console.WriteLine($"Message was: {msg.MessageString}");
+                msg.Reply("Content-Type: text/plain\n\nHello from my web server!");
+            };
+            while (true)
             {
-                switch (input)
-                {
-                    case "2":
-                        server.StopServer();
-                        break;
-                    default:
-                        run = false;
-                        break;
-                }
+
             }
         }
     }

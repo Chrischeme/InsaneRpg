@@ -26,7 +26,6 @@ namespace InsaneRpgServer.Controllers
 
         private void Server_DataRecieved(object sender, Message e)
         {
-            txtStatus.Text += e.MessageString;
             e.ReplyLine(string.Format("You said: {0}", e.MessageString));
         }
     }

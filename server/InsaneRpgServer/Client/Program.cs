@@ -8,16 +8,17 @@ namespace Client
     {
         static void Main(string[] args)
         {
-            var client = new SimpleTcpClient();
-            client.StringEncoder = Encoding.UTF8;
-            client.DataReceived += Client_DataRecieved;
+            var client = new SimpleTcpClient().Connect("127.0.0.1", 8000);
+            client.DataReceived += (sender, msg) => {
+                Console.WriteLine($"Message was: {msg.MessageString}");
+            };
             var message = Console.ReadLine();
-            client.WriteLineAndGetReply(message, TimeSpan.FromSeconds(3));
-        }
+            client.WriteLine(message);
+            Console.ReadLine();
+            while (true)
+            {
 
-        private static void Client_DataRecieved(object sender, Message e)
-        {
-            Console.WriteLine($"Recieved: {e.MessageString}");
+            }
         }
     }
 }
