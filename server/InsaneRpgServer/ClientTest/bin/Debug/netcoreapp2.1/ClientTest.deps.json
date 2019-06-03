@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "InsaneRpgServer/1.0.0": {
+      "ClientTest/1.0.0": {
         "runtime": {
-          "InsaneRpgServer.dll": {}
+          "ClientTest.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "InsaneRpgServer/1.0.0": {
+    "ClientTest/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

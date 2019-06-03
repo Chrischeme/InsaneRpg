@@ -1,0 +1,8 @@
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\bin\Debug\netcoreapp2.1\ClientTest.deps.json
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\bin\Debug\netcoreapp2.1\ClientTest.runtimeconfig.json
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\bin\Debug\netcoreapp2.1\ClientTest.runtimeconfig.dev.json
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\bin\Debug\netcoreapp2.1\ClientTest.dll
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\obj\Debug\netcoreapp2.1\ClientTest.csprojAssemblyReference.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\obj\Debug\netcoreapp2.1\ClientTest.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\obj\Debug\netcoreapp2.1\ClientTest.AssemblyInfoInputs.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\obj\Debug\netcoreapp2.1\ClientTest.AssemblyInfo.cs

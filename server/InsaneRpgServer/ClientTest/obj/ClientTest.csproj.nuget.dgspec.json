@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\InsaneRpgServer\\InsaneRpgServer.csproj": {}
+    "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\ClientTest\\ClientTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\InsaneRpgServer\\InsaneRpgServer.csproj": {
+    "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\ClientTest\\ClientTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\InsaneRpgServer\\InsaneRpgServer.csproj",
-        "projectName": "InsaneRpgServer",
-        "projectPath": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\InsaneRpgServer\\InsaneRpgServer.csproj",
+        "projectUniqueName": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\ClientTest\\ClientTest.csproj",
+        "projectName": "ClientTest",
+        "projectPath": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\ClientTest\\ClientTest.csproj",
         "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\InsaneRpgServer\\obj\\",
+        "outputPath": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\ClientTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
