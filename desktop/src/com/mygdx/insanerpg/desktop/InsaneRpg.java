@@ -20,8 +20,12 @@ public class InsaneRpg extends ApplicationAdapter {
 	public void create () {
 		batch = new SpriteBatch();
 		gsm = new GameStateManager();
-		Gdx.gl.glClearColor(1, 3, 1, 1);
 		gsm.push(new MenuState(gsm));
+	}
+
+	@Override
+	public void resize(int width, int height) {
+		super.resize(width, height);
 	}
 
 	@Override
@@ -29,5 +33,20 @@ public class InsaneRpg extends ApplicationAdapter {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		gsm.update(Gdx.graphics.getDeltaTime());
 		gsm.render(batch);
+	}
+
+	@Override
+	public void pause() {
+		super.pause();
+	}
+
+	@Override
+	public void resume() {
+		super.resume();
+	}
+
+	@Override
+	public void dispose() {
+		super.dispose();
 	}
 }

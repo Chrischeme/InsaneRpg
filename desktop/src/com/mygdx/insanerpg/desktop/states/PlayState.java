@@ -5,11 +5,12 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.mygdx.insanerpg.desktop.InsaneRpg;
 
 public class PlayState extends State {
+
     private Texture player;
     public PlayState(GameStateManager gsm) {
         super(gsm);
         player = new Texture("player.png");
-        cam.setToOrtho(false, InsaneRpg.WIDTH / 2, InsaneRpg.HEIGHT / 2);
+        cam.lookAt(20, 20, 20);
     }
 
     @Override

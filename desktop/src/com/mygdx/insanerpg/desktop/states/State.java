@@ -1,17 +1,17 @@
 package com.mygdx.insanerpg.desktop.states;
 
-import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.PerspectiveCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector3;
 
 public abstract class State {
-    protected OrthographicCamera cam;
+    protected PerspectiveCamera cam;
     protected Vector3 mouse;
     protected GameStateManager gsm;
 
     protected State(GameStateManager gsm) {
         this.gsm = gsm;
-        cam = new OrthographicCamera();
+        cam = new PerspectiveCamera();
         mouse = new Vector3();
     }
 
