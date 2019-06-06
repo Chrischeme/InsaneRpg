@@ -1,24 +1,33 @@
-﻿using SimpleTCP;
-using System;
+﻿using System;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
-
-namespace Client
+public class Program
 {
-    class Program
+    private const int listenPort = 11000;
+    public static int Main()
     {
-        static void Main(string[] args)
+        bool done = false;
+        UdpClient listener = new UdpClient(listenPort);
+        IPEndPoint groupEP = new IPEndPoint(IPAddress.Any, listenPort);
+        string received_data;
+        byte[] receive_byte_array;
+        try
         {
-            var client = new SimpleTcpClient().Connect("127.0.0.1", 8000);
-            client.DataReceived += (sender, msg) => {
-                Console.WriteLine($"Message was: {msg.MessageString}");
-            };
-            var message = Console.ReadLine();
-            client.WriteLine(message);
-            Console.ReadLine();
-            while (true)
+            while (!done)
             {
-
+                Console.WriteLine("Waiting for broadcast");
+                receive_byte_array = listener.Receive(ref groupEP);
+                Console.WriteLine("Received a broadcast from {0}", groupEP.ToString());
+                received_data = Encoding.ASCII.GetString(receive_byte_array, 0, receive_byte_array.Length);
+                Console.WriteLine("data follows \n{0}\n\n", received_data);
             }
         }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.ToString());
+        }
+        listener.Close();
+        return 0;
     }
 }
