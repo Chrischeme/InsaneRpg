@@ -19,8 +19,8 @@ steps:
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: false
-    testResultsFiles: '**/TEST-*.xml'
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    tasks: 'build'
+    projects: '/server/InsaneRpgserver'
+    testResultsFiles: '**/TEST-*.xml'
