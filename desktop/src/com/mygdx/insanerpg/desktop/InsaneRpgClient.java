@@ -8,6 +8,7 @@ import java.io.PrintWriter;
 
 class InsaneRpgClient implements Runnable
 {
+    /*
     public void run()
     {
         try
@@ -61,5 +62,5 @@ class InsaneRpgClient implements Runnable
         {
             Log.d("Nicklasssssss", e.toString());
         }
-    }
+    }*/
 }
