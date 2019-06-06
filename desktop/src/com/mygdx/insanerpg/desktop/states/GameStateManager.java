@@ -1,6 +1,6 @@
 package com.mygdx.insanerpg.desktop.states;
 
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.Batch;
 
 import java.util.Stack;
 
@@ -28,7 +28,7 @@ public class GameStateManager {
         states.peek().update(dt);
     }
 
-    public void render(SpriteBatch sb) {
+    public void render(Batch sb) {
         states.peek().render(sb);
 
     }

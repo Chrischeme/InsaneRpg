@@ -2,7 +2,7 @@ package com.mygdx.insanerpg.desktop.states;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.Batch;
 import com.mygdx.insanerpg.desktop.InsaneRpg;
 
 public class MenuState extends State {
@@ -29,12 +29,12 @@ public class MenuState extends State {
     }
 
     @Override
-    public void render(SpriteBatch sb) {
-        sb.begin();
+    public void render(Batch b) {
+        b.begin();
 
-        sb.draw(background,0,0, InsaneRpg.WIDTH, InsaneRpg.HEIGHT);
-        sb.draw(startBtn,(InsaneRpg.WIDTH / 2) - (startBtn.getWidth() / 2),(InsaneRpg.HEIGHT / 2) - (startBtn.getHeight() / 2));
-        sb.end();
+        b.draw(background,0,0, InsaneRpg.WIDTH, InsaneRpg.HEIGHT);
+        b.draw(startBtn,(InsaneRpg.WIDTH / 2) - (startBtn.getWidth() / 2),(InsaneRpg.HEIGHT / 2) - (startBtn.getHeight() / 2));
+        b.end();
     }
 
     @Override
