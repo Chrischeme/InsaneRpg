@@ -1,6 +1,8 @@
 package com.mygdx.insanerpg.model.item.equipment.weapon;
 
 import com.mygdx.insanerpg.model.item.equipment.Equipment;
+import com.mygdx.insanerpg.model.item.stackable.consumable.gem.WeaponGem;
+import java.util.ArrayList;
 
 public abstract class Weapon extends Equipment {
     private int _physicalDamage;
@@ -9,6 +11,7 @@ public abstract class Weapon extends Equipment {
     private int _armorPenetration;
     private int _magicPenetration;
     private AttackSpeed _attackSpeed;
+    private ArrayList<WeaponGem> _WeaponGemList;
 
     public int getPhysicalDamage() {
         return _physicalDamage;
@@ -61,6 +64,7 @@ public abstract class Weapon extends Equipment {
         _armorPenetration = armorPenetration;
         _magicPenetration = magicPenetration;
         _isOneHanded = isOneHanded;
+        _WeaponGemList = new ArrayList<WeaponGem>();
     }
 
     public Weapon() {
