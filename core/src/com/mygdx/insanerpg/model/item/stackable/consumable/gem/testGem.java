@@ -12,6 +12,9 @@ public class testGem {
             WeaponGem _spawnedGem = (WeaponGem)_gemFactory.createInstance();
             System.out.println(_spawnedGem.getRarity());
             System.out.println(_spawnedGem.getPrimaryWeaponGemAttribute());
+            System.out.println(_spawnedGem.getPrimaryWeaponGemAttributeBonus());
+            System.out.println(_spawnedGem.getSecondaryWeaponGemAttribute());
+            System.out.println(_spawnedGem.getSecondaryWeaponGemAttributeBonus());
             i++;
         }
     }
