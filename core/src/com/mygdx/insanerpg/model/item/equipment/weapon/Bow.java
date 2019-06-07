@@ -1,4 +1,4 @@
 package com.mygdx.insanerpg.model.item.equipment.weapon;
 
-public abstract class Sword extends Weapon {
+public abstract class Bow extends Weapon {
 }

@@ -1,7 +1,8 @@
 package com.mygdx.insanerpg.model.unit;
 
 abstract class Unit {
-    private int _health;
+    private int _hitPoints;
+    private int _manaPoints;
     private String _name;
     private int _level;
     private long _id;
@@ -9,14 +10,16 @@ abstract class Unit {
     private double _attackSpeed;
     private double _castSpeed;
     private boolean _isTargetable;
-    private boolean _isVisible;
+    private double _xCoordinate;
+    private double _yCoordinate;
+    private double _orientationAngle;
 
-    public int getHealth() {
-        return _health;
+    public int getHitPoints() {
+        return _hitPoints;
     }
 
-    public void setHealth(int _health) {
-        this._health = _health;
+    public void setHitPoints(int _health) {
+        this._hitPoints = _health;
     }
 
     public String getName() {
@@ -43,11 +46,11 @@ abstract class Unit {
         this._id = _id;
     }
 
-    public double get_moveSpeed() {
+    public double getMoveSpeed() {
         return _moveSpeed;
     }
 
-    public void set_moveSpeed(double _moveSpeed) {
+    public void setMoveSpeed(double _moveSpeed) {
         this._moveSpeed = _moveSpeed;
     }
 
@@ -75,11 +78,53 @@ abstract class Unit {
         this._isTargetable = _isTargetable;
     }
 
-    public boolean getIsVisible() {
-        return _isVisible;
+    public int getManaPoints() {
+        return _manaPoints;
     }
 
-    public void setIsVisible(boolean _isVisible) {
-        this._isVisible = _isVisible;
+    public void setManaPoints(int _manaPoints) {
+        this._manaPoints = _manaPoints;
+    }
+
+    public double getXCoordinate() {
+        return _xCoordinate;
+    }
+
+    public void setXCoordinate(double _xCoordinate) {
+        this._xCoordinate = _xCoordinate;
+    }
+
+    public double getYCoordinate() {
+        return _yCoordinate;
+    }
+
+    public void setYCoordinate(double _yCoordinate) {
+        this._yCoordinate = _yCoordinate;
+    }
+
+    public double getOrientationAngle() {
+        return _orientationAngle;
+    }
+
+    public void setOrientationAngle(double _orientationAngle) {
+        this._orientationAngle = _orientationAngle;
+    }
+
+    public Unit(int hitPoints, int manaPoints, String name, int level, int id, int moveSpeed, double attackSpeed, double castSpeed, boolean isTargetable, double orientationAngle,
+                double xCoordinate, double yCoordinate) {
+        _hitPoints = hitPoints;
+        _manaPoints = manaPoints;
+        _name = name;
+        _level = level;
+        _attackSpeed = attackSpeed;
+        _castSpeed = attackSpeed;
+        _moveSpeed = moveSpeed;
+        _isTargetable = isTargetable;
+        _orientationAngle = orientationAngle;
+        _xCoordinate = xCoordinate;
+        _yCoordinate = yCoordinate;
+    }
+
+    public Unit() {
     }
 }
