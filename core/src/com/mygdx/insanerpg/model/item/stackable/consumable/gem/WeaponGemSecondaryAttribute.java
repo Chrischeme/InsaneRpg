@@ -29,12 +29,12 @@ public enum WeaponGemSecondaryAttribute {
     private static Random _randNum = new Random();
 
     public static WeaponGemSecondaryAttribute getRandomSecondaryAttribute() {
-        //To Do: replace java.util.Random with an actual random function
+        //todo: replace java.util.Random with an actual random function
         return _secondaryAttribute[_randNum.nextInt(_secondaryAttribute.length)];
     }
 
     public static double getRandomSecondaryAttributeBonus(WeaponGemSecondaryAttribute attribute) {
-        //To Do: replace java.util.Random with an actual random function
+        //todo: replace java.util.Random with an actual random function
         double statBonus;
         switch (attribute) {
             case PercentStr:

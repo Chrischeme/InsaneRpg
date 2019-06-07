@@ -1,6 +1,6 @@
 package com.mygdx.insanerpg.model.unit;
 
-abstract class Player extends Unit implements Movable{
+abstract class Player extends Unit implements Movable {
     private int _intelligence;
     private int _dexterity;
     private int _vitality;
@@ -14,6 +14,7 @@ abstract class Player extends Unit implements Movable{
             setYCoordinate(getYCoordinate() + getMoveSpeed() * Math.sin(getOrientationAngle()));
         }
     }
+
     public int getIntelligence() {
         return _intelligence;
     }
@@ -58,5 +59,4 @@ abstract class Player extends Unit implements Movable{
 
     public Player() {
     }
-
 }

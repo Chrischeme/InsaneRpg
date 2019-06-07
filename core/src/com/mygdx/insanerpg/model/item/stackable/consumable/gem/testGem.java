@@ -3,7 +3,7 @@ package com.mygdx.insanerpg.model.item.stackable.consumable.gem;
 import com.mygdx.insanerpg.model.item.Rarity;
 
 public class testGem {
-
+    //todo: only exists as test class, will not be in the final product
     private static GemFactory _gemFactory;
     private static Gem _spawnedGem;
 

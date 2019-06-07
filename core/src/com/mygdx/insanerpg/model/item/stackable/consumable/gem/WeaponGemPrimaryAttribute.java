@@ -15,12 +15,12 @@ public enum WeaponGemPrimaryAttribute {
     private static Random _randNum = new Random();
 
     public static WeaponGemPrimaryAttribute getRandomPrimaryAttribute() {
-        //To Do: replace java.util.Random with an actual random function
+        //todo: replace java.util.Random with an actual random function
         return _primaryAttribute[_randNum.nextInt(_primaryAttribute.length)];
     }
 
     public static int getRandomPrimaryAttributeBonus(WeaponGemPrimaryAttribute attribute) {
-        //To Do: replace java.util.Random with an actual random function
+        //todo: replace java.util.Random with an actual random function
         int statBonus;
         switch (attribute) {
             case FlatStr:
