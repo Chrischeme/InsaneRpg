@@ -11,13 +11,17 @@ public enum Rarity {
     private static double _epicDropRate = 0.0001;
     private static Random _randNum = new Random();
 
+
     public static Rarity getRandomRarity() {
         //To Do: replace java.util.Random with an actual random function
-        if (_randNum.nextInt(10000) <= _epicDropRate * 10000) {
+        int _randInt = _randNum.nextInt(10000);
+        if (_randInt <= _epicDropRate * 10000) {
             return Rarity.EPIC;
-        } else if (_randNum.nextInt(10000) <= _rareDropRate * 10000) {
+        }
+        if (_randInt <= _rareDropRate * 10000) {
             return Rarity.RARE;
-        } else if (_randNum.nextInt(10000) <= _uncommonDropRate * 10000) {
+        }
+        if (_randInt <= _uncommonDropRate * 10000) {
             return Rarity.UNCOMMON;
         } else {
             return Rarity.COMMON;

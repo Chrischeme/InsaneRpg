@@ -15,4 +15,32 @@ public abstract class Item {
     public void setRarity(Rarity rarity) {
         this._rarity = rarity;
     }
+
+    public int getSellPrice() {
+        return _sellPrice;
+    }
+
+    public void setSellPrice(int _sellPrice) {
+        this._sellPrice = _sellPrice;
+    }
+
+    public int getBuyPrice() {
+        return _buyPrice;
+    }
+
+    public void setBuyPrice(int _buyPrice) {
+        this._buyPrice = _buyPrice;
+    }
+
+    public int getItemId() {
+        return _itemId;
+    }
+
+    public String getDescription() {
+        return _description;
+    }
+
+    public String getName() {
+        return _name;
+    }
 }
