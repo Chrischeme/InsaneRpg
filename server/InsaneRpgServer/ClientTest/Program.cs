@@ -1,24 +1,21 @@
-﻿using SimpleTCP;
-using System;
+﻿using System;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
+using UdpFacade.Models;
 
-namespace Client
+public class Program
 {
-    class Program
+    private const int listenPort = 11000;
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            var client = new SimpleTcpClient().Connect("127.0.0.1", 8000);
-            client.DataReceived += (sender, msg) => {
-                Console.WriteLine($"Message was: {msg.MessageString}");
-            };
-            var message = Console.ReadLine();
-            client.WriteLine(message);
-            Console.ReadLine();
-            while (true)
-            {
+        UdpSocket s = new UdpSocket();
+        s.Server("127.0.0.1", 27000);
 
-            }
-        }
+        UdpSocket c = new UdpSocket();
+        c.Client("127.0.0.1", 27000);
+        c.Send("TEST!");
+
+        Console.ReadKey();
     }
 }

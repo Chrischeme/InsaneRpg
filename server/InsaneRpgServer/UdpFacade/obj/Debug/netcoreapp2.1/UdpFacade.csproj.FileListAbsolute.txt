@@ -1,0 +1,9 @@
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\UdpFacade\bin\Debug\netcoreapp2.1\UdpFacade.deps.json
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\UdpFacade\bin\Debug\netcoreapp2.1\UdpFacade.dll
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\UdpFacade\bin\Debug\netcoreapp2.1\UdpFacade.pdb
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\UdpFacade\obj\Debug\netcoreapp2.1\UdpFacade.csprojAssemblyReference.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\UdpFacade\obj\Debug\netcoreapp2.1\UdpFacade.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\UdpFacade\obj\Debug\netcoreapp2.1\UdpFacade.AssemblyInfoInputs.cache
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\UdpFacade\obj\Debug\netcoreapp2.1\UdpFacade.AssemblyInfo.cs
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\UdpFacade\obj\Debug\netcoreapp2.1\UdpFacade.dll
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\UdpFacade\obj\Debug\netcoreapp2.1\UdpFacade.pdb

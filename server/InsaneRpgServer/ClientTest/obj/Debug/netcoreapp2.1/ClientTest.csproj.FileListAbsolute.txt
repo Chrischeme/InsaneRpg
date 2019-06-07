@@ -6,3 +6,9 @@ C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\obj\De
 C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\obj\Debug\netcoreapp2.1\ClientTest.csproj.CoreCompileInputs.cache
 C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\obj\Debug\netcoreapp2.1\ClientTest.AssemblyInfoInputs.cache
 C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\obj\Debug\netcoreapp2.1\ClientTest.AssemblyInfo.cs
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\bin\Debug\netcoreapp2.1\ClientTest.pdb
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\bin\Debug\netcoreapp2.1\UdpFacade.dll
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\bin\Debug\netcoreapp2.1\UdpFacade.pdb
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\obj\Debug\netcoreapp2.1\ClientTest.csproj.CopyComplete
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\obj\Debug\netcoreapp2.1\ClientTest.dll
+C:\Users\Chris\Desktop\MMORPG\InsaneRpg\server\InsaneRpgServer\ClientTest\obj\Debug\netcoreapp2.1\ClientTest.pdb
