@@ -8,7 +8,6 @@ import com.badlogic.gdx.graphics.g3d.Model;
 import com.badlogic.gdx.graphics.g3d.ModelInstance;
 import com.badlogic.gdx.graphics.g3d.attributes.ColorAttribute;
 import com.badlogic.gdx.graphics.g3d.utils.ModelBuilder;
-import com.mygdx.insanerpg.desktop.InsaneRpg;
 
 public class PlayState extends State {
     public Model model;

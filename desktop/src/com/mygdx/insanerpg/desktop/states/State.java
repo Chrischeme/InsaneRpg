@@ -8,11 +8,16 @@ public abstract class State {
     protected Camera cam;
     protected Vector3 mouse;
     protected GameStateManager gsm;
+    private Batch b;
 
     protected State(GameStateManager gsm) {
         this.gsm = gsm;
         mouse = new Vector3();
-        cam = new Camera();
+        this.cam = cam;
+    }
+
+    public Batch getB() {
+        return b;
     }
 
     protected abstract void handleInput();

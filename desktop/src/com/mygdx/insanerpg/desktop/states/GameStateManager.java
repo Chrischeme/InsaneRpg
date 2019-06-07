@@ -32,4 +32,7 @@ public class GameStateManager {
         states.peek().render(sb);
 
     }
+    public State get() {
+        return states.peek();
+    }
 }
