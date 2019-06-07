@@ -1,4 +1,4 @@
-package com.mygdx.insanerpg.desktop;
+/*package com.mygdx.insanerpg.desktop;
 
 import com.badlogic.gdx.net.Socket;
 
@@ -8,6 +8,7 @@ import java.io.PrintWriter;
 
 class InsaneRpgClient implements Runnable
 {
+
     public void run()
     {
         try
@@ -63,3 +64,4 @@ class InsaneRpgClient implements Runnable
         }
     }
 }
+*/
