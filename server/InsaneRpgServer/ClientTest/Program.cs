@@ -2,32 +2,20 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using UdpFacade.Models;
+
 public class Program
 {
     private const int listenPort = 11000;
-    public static int Main()
+    static void Main(string[] args)
     {
-        bool done = false;
-        UdpClient listener = new UdpClient(listenPort);
-        IPEndPoint groupEP = new IPEndPoint(IPAddress.Any, listenPort);
-        string received_data;
-        byte[] receive_byte_array;
-        try
-        {
-            while (!done)
-            {
-                Console.WriteLine("Waiting for broadcast");
-                receive_byte_array = listener.Receive(ref groupEP);
-                Console.WriteLine("Received a broadcast from {0}", groupEP.ToString());
-                received_data = Encoding.ASCII.GetString(receive_byte_array, 0, receive_byte_array.Length);
-                Console.WriteLine("data follows \n{0}\n\n", received_data);
-            }
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e.ToString());
-        }
-        listener.Close();
-        return 0;
+        UdpSocket s = new UdpSocket();
+        s.Server("127.0.0.1", 27000);
+
+        UdpSocket c = new UdpSocket();
+        c.Client("127.0.0.1", 27000);
+        c.Send("TEST!");
+
+        Console.ReadKey();
     }
 }

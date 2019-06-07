@@ -216,6 +216,16 @@
         "runtime": {
           "lib/net45/SimpleTCP.dll": {}
         }
+      },
+      "UdpFacade/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UdpFacade.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UdpFacade.dll": {}
+        }
       }
     }
   },
@@ -701,12 +711,18 @@
         "simpletcp.1.0.24.nupkg.sha512",
         "simpletcp.nuspec"
       ]
+    },
+    "UdpFacade/1.0.0": {
+      "type": "project",
+      "path": "../UdpFacade/UdpFacade.csproj",
+      "msbuildProject": "../UdpFacade/UdpFacade.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "SimpleTCP >= 1.0.24"
+      "SimpleTCP >= 1.0.24",
+      "UdpFacade >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -738,7 +754,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\UdpFacade\\UdpFacade.csproj": {
+              "projectPath": "C:\\Users\\Chris\\Desktop\\MMORPG\\InsaneRpg\\server\\InsaneRpgServer\\UdpFacade\\UdpFacade.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
