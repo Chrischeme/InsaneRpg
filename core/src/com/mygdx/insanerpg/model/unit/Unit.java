@@ -43,11 +43,11 @@ abstract class Unit {
         this._id = _id;
     }
 
-    public double get_moveSpeed() {
+    public double getMoveSpeed() {
         return _moveSpeed;
     }
 
-    public void set_moveSpeed(double _moveSpeed) {
+    public void setMoveSpeed(double _moveSpeed) {
         this._moveSpeed = _moveSpeed;
     }
 
